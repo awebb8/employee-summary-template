@@ -1,0 +1,15 @@
+body {
+    background-image: url("https://github.com/awebb8/employee-summary-template/blob/master/images/%E2%80%94Pngtree%E2%80%94small%20clean%20blue%20and%20green_904060.jpg?raw=true");
+}
+
+.jumbotron {
+    background-color: #4962a2;
+    color: white;
+    font-family: American Typewriter, serif;
+}
+
+.card {
+    background-color: #d0deff;
+    margin: 5px;
+    font-family: American Typewriter, serif
+}
