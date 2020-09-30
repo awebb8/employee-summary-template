@@ -34,11 +34,9 @@ function promptUser() {
             validate: function(email) {
                 if(email === "" || email === null || email === undefined) {
                     console.log("\nPlease enter valid email");
-                }
-                else if(email.includes("@") === false || email.includes(".com") === false) {
+                } else if(email.includes("@") === false || email.includes(".com") === false) {
                     console.log("\nPlease enter valid email");
-                }
-                else {
+                } else {
                     return true;
                 }
             }
@@ -46,7 +44,7 @@ function promptUser() {
         {
             type: "input",
             name: "number",
-            message: "What is your manager's office number?",
+            message: "What is your manager's office number?"
         },
         {
             type: "list",
@@ -83,11 +81,9 @@ function buildTeam(response) {
             validate: function(email) {
                 if(email === "" || email === null || email === undefined) {
                     console.log("\nPlease enter valid email");
-                }
-                else if(email.includes("@") === false || email.includes(".com") === false) {
+                } else if(email.includes("@") === false || email.includes(".com") === false) {
                     console.log("\nPlease enter valid email");
-                }
-                else {
+                } else {
                     return true;
                 }
             }
@@ -127,11 +123,9 @@ function buildTeam(response) {
             validate: function(email) {
                 if(email === "" || email === null || email === undefined) {
                     console.log("\nPlease enter valid email");
-                }
-                else if(email.includes("@") === false || email.includes(".com") === false) {
+                } else if(email.includes("@") === false || email.includes(".com") === false) {
                     console.log("\nPlease enter valid email");
-                }
-                else {
+                } else {
                     return true;
                 }
             }
